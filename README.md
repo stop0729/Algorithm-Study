@@ -41,14 +41,14 @@
 ### Pull Request
 
 - [이취코] 이름
-- [Programmers-풀더명] 이름
-- [Baekjoon-풀더명] 이름
+- [Programmers-풀더명_이름] 이름
+- [Baekjoon-풀더명_이름] 이름
 
 ### Commit Message
 
-- [이취코] 문제명
-- [Programmers-문제번호] 문제명
-- [Baekjoon-문제번호] 문제명
+- [이취코_본인이름] week00
+- [Programmers-문제번호] week00
+- [Baekjoon-문제번호] week00
 
 ## 파일 및 폴더 구조
 
