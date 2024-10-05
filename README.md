@@ -75,5 +75,5 @@
 
 |주차|챕터명|문제1|문제2|문제3|진행현황
 |---|------|---|---|---|----|
-|1주차|greedy|큰 수의 법칙|숫자 카드 게임|1이 될 때까지|![](https://via.placeholder.com/15/444444/000000?text=+) 진행중|
+|1주차|greedy|큰 수의 법칙|숫자 카드 게임|1이 될 때까지|<div style="background-color: #444444; color: white; padding: 5px 10px; border-radius: 10px; display: inline-block;">진행 완료</div>|
 
