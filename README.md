@@ -46,9 +46,9 @@
 
 ### Commit Message
 
-- [이취코_본인이름] 문제명
-- [Programmers-문제번호] 문제명
-- [Baekjoon-문제번호] 문제명
+- [이취코_본인이름] week00
+- [Programmers-문제번호] week00
+- [Baekjoon-문제번호] week00
 
 ## 파일 및 폴더 구조
 
