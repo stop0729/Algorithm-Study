@@ -75,5 +75,6 @@
 
 |주차|챕터명|문제1|문제2|문제3|진행현황
 |---|------|---|---|---|----|
-|1주차|greedy|큰 수의 법칙|숫자 카드 게임|1이 될 때까지|<div style="background-color: #444444; color: white; padding: 5px 10px; border-radius: 10px; display: inline-block;">진행 완료</div>|
+|1주차|greedy|큰 수의 법칙|숫자 카드 게임|1이 될 때까지|진행완료|
+|2주차|구현|왕실의 나이트|게임 개발|      |진행중|
 
