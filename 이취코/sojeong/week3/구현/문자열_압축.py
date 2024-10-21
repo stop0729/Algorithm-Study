@@ -15,7 +15,7 @@ def solution(s):
         count = 1
         
         # 단위끼리 비교
-        for j in range(0, len(s), i):
+        for j in range(i, len(s), i): # i 뒤부터 i씩 증가
             # 같으면 계속 count
             if unit == s[j:j+i]:
                 count += 1
@@ -26,7 +26,7 @@ def solution(s):
                 else:
                     string += unit
                 # 다음 단위로 넘어가기
-                unit = s[j:j+i] 
+                unit = s[j:j+i] # unit 갱신
                 count = 1 # count 초기화
         
         # 마지막 단위 추가
