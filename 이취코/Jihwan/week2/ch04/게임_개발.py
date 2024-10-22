@@ -5,6 +5,8 @@ place = []
 for i in range(n):
     place.append(list(map(int, input().split())))
 
+place[x][y] = -1
+
 dx = [-1, 0, 1, 0] 
 dy = [0, 1, 0, -1] # 북:0, 동:1, 남:2, 서:3 순서
 
@@ -14,7 +16,7 @@ def cal_d(temp, dir):
         temp += 4
     return temp
 
-result = 0
+result = 1
 
 while True:
     is_move = False
@@ -28,7 +30,7 @@ while True:
             place[nx][ny] = -1
             is_move = True
             break
-    
+
     if is_move:
         result += 1
         continue
@@ -40,5 +42,6 @@ while True:
             x, y = nx, ny
         else:
             break
+
     
 print(result)
