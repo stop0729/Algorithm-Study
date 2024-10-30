@@ -9,7 +9,7 @@ def solution(s):
     result = len(s) # 최대 길이는 문자열 길이
     
     # 1~len(s)//2개 단위로 압축
-    for i in range(1, len(s)//2+1):
+    for i in range(1, len(s)//2+1):# aabbaccc
         string = "" # 압축된 문자열 저장
         unit = s[0:i] # 첫번째 단위
         count = 1
