@@ -22,11 +22,12 @@ def binary_search2(array, target, start, end):
             start = mid+1
     return None
 
+
 n = int(sys.stdin.readline().rstrip())
 store = list(map(int, sys.stdin.readline().rstrip().split()))
 store.sort()
 
-m = int(sys.stdin.readline().rstrip())
+m = int(sys.stdin.readline().rstrip())      
 client = list(map(int, sys.stdin.readline().rstrip().split()))
 
 for i in client:

@@ -12,23 +12,59 @@
 # result = binary_search([1, 3, 5, 7, 8, 10, 12, 18], 9, 0, 7)
 # print(result)
 
-N, target = map(int, input().split())
-array = list(map(int, input().split()))
 
-long = max(array)
-def binary_search(array, target, start, end):
-    if start > end:
-        print('aaaaaaaaa')
-        return start
-    mid = (start + end) // 2
-    if sum(array) - len(array) * mid == target:
-        print('aaaaaaaaa')
-        return mid
-    elif sum(array) - len(array) * mid > target:
-        return binary_search(array, target, mid+1, end)
-    else:
-        return binary_search(array, target, start, mid-1)
+
+# Try 1
+# N, target = map(int, input().split())
+# array = list(map(int, input().split()))
+
+# long = max(array)
+# record = 0
+
+# def binary_search(array, target, start, end, record):
+#     if start > end:
+#         print(start, end, record)
+#         print('aaaaaaa')
+#         return record
+#     mid = (start + end) // 2
+#     total = 0
+#     for x in array:
+#         if x > mid:
+#             total += x - mid
+#     if total == target:
+#         return mid
+#     elif total > target:
+#         print('bbbbbbbb', mid+1, end, mid, total)
+#         return binary_search(array, target, mid+1, end, mid)
+#     else:
+#         print('cccccccc', start, mid-1, mid, total)
+#         return binary_search(array, target, start, mid-1, mid)
     
-result = binary_search(array, target, 0, long)
-print(result)
+# result = binary_search(array, target, 0, long, record)
+# print(result)
+
+
+
+# Try 2
+# n, m = list(map(int, input().split()))
+# array = list(map(int, input().split()))
+
+# start = 0
+# end = max(array)
+
+# result = 0
+# while(start <= end):
+#     total = 0
+#     mid = (start + end) // 2
+#     for x in array:
+#         if x > mid:
+#             total += x - mid
+#     if total < m:
+#         end = mid - 1
+#     else:
+#         result = mid
+#         start = mid + 1
+
+
+# print(result)
     
